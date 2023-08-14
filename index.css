@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-img {
+  width: 5.191929349595839%;
+  height: 0%;
+  margin-left: 3.3484858%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.remove {
+  display: none;
+}
+.menu {
+  background-color: rgb(13, 95, 177);
+  flex-direction: row-reverse;
+  display: flex;
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  width: 100%;
+}
+.menu li {
+  cursor: pointer;
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 1%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 107%;
+  color: aliceblue;
+  white-space: nowrap;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 2%;
+}
+
+.member-card {
+  display: flex;
+  margin-right: 9.55252%;
+  flex-direction: column;
+}
+
+.member-card p {
+  color: rgba(0, 0, 0, 0.73);
+  font-size: 254%;
+}
